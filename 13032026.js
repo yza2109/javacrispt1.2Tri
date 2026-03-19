@@ -11,13 +11,29 @@ function resultadoDivisaoSocio(lucro,lucro2){
 }
 
 
-function calculadora(ari,a,b)
+function calculadora(ari,a,b){
     switch(ari){
         case '+':
             resultado = a + b;
             break;
-        case '-':
-            resultado = a - b;
-        } 
+            case '-' :
+
+    }
+}
+function calculadora(ari,b,a){
+    switch(ari){
+        case '+':
+            resultado = a + b;
+            break;
+            case '/':
+                resultado = a * b;
+                break;
+                case '/':
+                    default:
+                        resultado = 'Operador inválido'
+    }
+    return resultado
+}
+
 
             
