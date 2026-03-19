@@ -12,11 +12,12 @@ function resultadoDivisaoSocio(lucro,lucro2){
 
 
 function calculadora(ari,a,b)
- 
     switch(ari){
         case '+':
-            resuldado = a + b;
+            resultado = a + b;
             break;
-            case '-':
-        }
-    
+        case '-':
+            resultado = a - b;
+        } 
+
+            
